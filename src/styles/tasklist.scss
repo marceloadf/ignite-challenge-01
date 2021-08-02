@@ -124,6 +124,7 @@ section.task-list {
               height: 16px;
               background-color: var(--background);
               border-radius: 2px;
+              border: 0.5px solid var(--text-light); //alterei aqui pois não estava conseguindo enxergar no chrome Versão 92.0.4515.107 (Versão oficial) 64 bits
           
               &:after {
                 content: "";
